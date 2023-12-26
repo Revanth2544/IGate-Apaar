@@ -870,6 +870,22 @@ h6 {
   color: white;
 } */
 
+.swiper-container {
+  width: 530px;
+  height: 655.22px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.swiper-slide img {
+  width: 507px;
+  height: 655.22px;
+  position: absolute;
+  left: 23px;
+  top: 0;
+}
+
+
 #hero {
   width: 100%;
   height: 65vh;
@@ -1244,7 +1260,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  /* padding: 60px 0; */
   overflow: hidden;
 }
 
@@ -1284,7 +1300,7 @@ section {
   /* background: #e7f1fd; */
   /* color: #106eea; */
   display: inline-block;
-  
+
   /* text-transform: uppercase; */
   border-radius: 50px;
 }
@@ -1378,17 +1394,43 @@ section {
   overflow: hidden;
   /* background: #fff; */
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: width 0.1m ;
+  transition: width 0.1m;
+  /* transition: transform 1ms ease-in-out; */
   border-radius: 8px;
   z-index: 1;
 }
 
-.featured-services .icon-box:hover{
+.select {
+  padding: 8px 20px;
+  border-radius: 2px;
+  color: #737374;
+  font-size: 15px;
+}
+
+.checkbox-group label {
+  display: inline-block;
+  margin-right: 8px;
+  font-family: inherit;
+}
+
+/* .select-container::after {
+  content: '\25BC';
+  font-size: 16px;
+  color: #555;
+  position: absolute;
+  top: 43%;
+  right: 50px;
+  transform: translateY(-50%);
+} */
+
+
+.featured-services .icon-box:hover {
   transform: scale(1.07);
   z-index: 1;
 }
+
 .card-link:hover .title,
-.card-link:hover .description  {
+.card-link:hover .description {
   color: white;
 }
 
@@ -1396,6 +1438,7 @@ section {
   max-width: 100%;
   height: auto;
 }
+
 .featured-services .icon-box::before {
   content: "";
   position: absolute;

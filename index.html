@@ -18,6 +18,39 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+  <style>
+    /* Add your custom styles here */
+    #carouselContainer {
+      height: 500px;
+      /* Set a fixed height for the container */
+      overflow: hidden;
+      /* Hide overflow to prevent jumping */
+    }
+
+    .carousel-inner img {
+      width: 100%;
+      /* Ensure images fill their container */
+      height: 100%;
+      /* Ensure images fill their container */
+      object-fit: cover;
+      /* Maintain aspect ratio and cover the container */
+    }
+  </style>
+
+  <script>
+    function setModalImage(imageSrc) {
+      $('#modalImage').attr('src', imageSrc);
+    }
+    $(document).ready(function () {
+      $('#myCarousel').carousel();
+    });
+  </script>
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -54,8 +87,8 @@
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center" data-aos="fade-right" data-aos-delay="100"><a
             href="mailto:contact@example.com">info@igatepropertymanagement.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4" data-aos="fade-right" data-aos-delay="100"><span>+1
-            614-551-0396</span></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4" data-aos="fade-right"
+          data-aos-delay="100"><span>7780722700</span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
         <!-- <a href="https://twitter.com/ApaarSoftware" class="twitterr"><i class="bi bi-twitter"></i></a> -->
@@ -130,10 +163,9 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container-fluid">
       <div class="row">
-
         <div class="col-md-6" style="z-index: 1; font-family: poppins;">
           <div class="india" data-aos="fade-left" data-aos-delay="100">
-            <h2 style="font-size: 35px; color: #007E7D; z-index: 4px;"><b>One stop solution for
+            <h2 style="font-size: 35px; color: #007E7D; z-index: 4px; margin-right: 80px;"><b>One stop solution for
                 all your<br />property related services in <span style="padding:30%;">INDIA</span></b></h2>
           </div>
           <p data-aos="fade-up" data-aos-delay="100" class="para">&nbsp;"Owning a home is a keystone of
@@ -153,18 +185,18 @@
           <div id="heroCarousel" data-bs-interval="3000" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner" role="listbox">
               <!-- Slide 1 -->
-              <div class="carousel-item active" style="background-image: url('./assets/img/61.jpg.png');"></div>
+              <div class="carousel-item active" style="background-image: url('./assets/img/commercial\ spaces.webp');">
+              </div>
               <!-- Slide 2 -->
-              <div class="carousel-item" style="background-image: url(assets/img/igate02.jpg);"></div>
+              <div class="carousel-item" style="background-image: url(assets/img/rental\ agreement.webp);"></div>
               <!-- Slide 3 -->
-              <div class="carousel-item" style="background-image: url(assets/img/igate03.jpg);"></div>
+              <div class="carousel-item" style="background-image: url(assets/img/plumbing.jpg);"></div>
+              <div class="carousel-item" style="background-image: url(assets/img/sale\ deed.jpg);"></div>
+              <div class="carousel-item" style="background-image: url(assets/img/flats.webp);"></div>
             </div>
             <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
           </div>
         </div>
-
-
-
       </div>
     </div>
   </section>
@@ -353,7 +385,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <div
+            <!-- <div
               style="width: 100%; justify-content: flex-start; align-items: flex-start; gap: 15px; display: inline-flex">
               <div style="width: 15px; height: 1px; background: #007E7D"></div>
               <div
@@ -361,7 +393,7 @@
                 Payment of peroperty tax & other expenses payable by the owner to RWA/Govt Bodies/Utility Bills payment
                 when
                 the property is vacant</div>
-            </div>
+            </div> -->
             <div
               style="width: 100%;  justify-content: flex-start; align-items: flex-start; gap: 15px; display: inline-flex">
               <div style="width: 15px; height: 1px; background: #007E7D"></div>
@@ -414,107 +446,156 @@
 
 
 
-
-  <div
-    style="width: 100%; height: 100%; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-    <div data-aos="fade-right" data-aos-delay="100"
-      style="width: 100%; height: 100%; margin-left: 10%; margin-top: 5%; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-      <div style="width: 530px; height: 655.22px; position: relative">
-        <img style="width: 507px; height: 655.22px; left: 23px; top: 0px; position: absolute"
-          src="./assets/img/7.png.png" />
-        <div
-          style="width: 300px; height: 223.89px; left: 0px; top: 361.33px; position: absolute; background: rgba(255, 255, 255, 0); box-shadow: 0px 16px 32px rgba(7, 28, 31, 0.10)">
-          <img style="width: 300px; height: 223.89px; left: 0px; top: 0px; position: absolute"
-            src="./assets/img/8.png.png" />
-          <div
-            style="width: 300px; height: 223.89px; left: 0px; top: 0px; position: absolute; opacity: 0.10; background: black">
+  <div id="carouselContainer">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000"
+      style="width: 100%; height: 100%; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+      <div class="carousel-inner" style="margin-top: 80px;">
+        <!-- Slide 1 -->
+        <div class="carousel-item active" data-toggle="modal" data-target="#imageModal"
+          onclick="setModalImage('./assets/img/vida-construction-site-visit.jpg')">
+          <img src="./assets/img/vida-construction-site-visit.jpg" class="d-block w-100" alt="Slide 1">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- Add any additional content or captions here -->
           </div>
+        </div>
 
-          <div>
-            <div
-              style="width: 15.38px; height: 21px; text-align: center; color: #9FCFCF; font-size: 20px; font-family: 'Font Awesome 5 Free'; font-weight: 900; line-height: 20px; word-wrap: break-word">
+        <!-- Slide 2 -->
+        <div class="carousel-item" data-toggle="modal" data-target="#imageModal"
+          onclick="setModalImage('./assets/img/encumbrance-certificate.jpg')">
+          <img src="./assets/img/encumbrance-certificate.jpg" class="d-block w-100" alt="Slide 2">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- Add any additional content or captions here -->
+          </div>
+        </div>
+        <div class="carousel-item" data-toggle="modal" data-target="#imageModal"
+          onclick="setModalImage('./assets/img/land survey.webp')">
+          <img src="./assets/img/land survey.webp" class="d-block w-100" alt="Slide 2">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- Add any additional content or captions here -->
+          </div>
+        </div>
+        <div class="carousel-item" data-toggle="modal" data-target="#imageModal"
+          onclick="setModalImage('./assets/img/fencing.webp')">
+          <img src="./assets/img/fencing.webp" class="d-block w-100" alt="Slide 2">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- Add any additional content or captions here -->
+          </div>
+        </div>
+        <div class="carousel-item" data-toggle="modal" data-target="#imageModal"
+          onclick="setModalImage('./assets/img/SecurityBro.jpg')">
+          <img src="./assets/img/SecurityBro.jpg" class="d-block w-100" alt="Slide 2">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- Add any additional content or captions here -->
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+        <!-- Add more slides as needed -->
+      </div>
+
+      <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="imageModalLabel">Image Preview</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img id="modalImage" src="" class="img-fluid" alt="Image Preview">
             </div>
           </div>
         </div>
       </div>
-    </div>
 
 
-    <div data-aos="fade-down" data-aos-delay="100"
-      style="width: 100%; height: 100%; justify-content: flex-start; align-items: flex-start; gap: 60px; display: inline-flex">
-      <div
-        style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-        <div style="width: 806px; height: 459.98px; position: relative">
-          <div
-            style="width: 69.22px; margin-top: 6%; height: 22px; left: 1px; top: 5.01px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 600; line-height: 20.80px; word-wrap: break-word">
-            Why Us?</div>
-          <div
-            style="left: 0px; top: 66.98px; position: absolute; color: black; font-size: 44px; font-family: Poppins; font-weight: 700; line-height: 57.20px; word-wrap: break-word">
-            Let us Introduce Ourselves</div>
-          <div
-            style="width: 12.76px; height: 61px; left: 443.22px; top: 103px; position: absolute; color: #9FCFCF; font-size: 44px; font-family: Poppins; font-weight: 700; line-height: 57.20px; word-wrap: break-word">
+      <div data-aos="fade-down" data-aos-delay="100"
+        style="width: 100%; height: 100%; justify-content: flex-start; align-items: flex-start; gap: 60px; display: inline-flex">
+        <div
+          style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+          <div style="width: 806px; height: 459.98px; position: relative">
+            <div
+              style="width: 69.22px; margin-top: 6%; height: 22px; left: 60px; top: 5.01px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 600; line-height: 20.80px; word-wrap: break-word">
+              Why Us?</div>
+            <div
+              style="left: 60px; top: 66.98px; position: absolute; color: black; font-size: 44px; font-family: Poppins; font-weight: 700; line-height: 57.20px; word-wrap: break-word">
+              Let us Introduce Ourselves</div>
+            <div
+              style="width: 12.76px; height: 61px; left: 443.22px; top: 103px; position: absolute; color: #9FCFCF; font-size: 44px; font-family: Poppins; font-weight: 700; line-height: 57.20px; word-wrap: break-word">
+            </div>
+            <div
+              style="width: 706px; height: 87px; padding-top: 17px; padding-bottom: 19px; padding-right: 100px; left: 60px; top: 136.98px; position: absolute; justify-content: flex-start; align-items: center; display: inline-flex">
+              <div
+                style="color: black; font-size: 14px;  font-weight: 400; line-height: 25.20px; word-wrap: break-word">
+                We are a group of professionals, to take care of your property and real estate in India.<br />We offer
+                Property Management Services for NRI’s and resident Indians for their properties in India.</div>
+            </div>
+            <div
+              style="width: 108.91px; height: 30.80px; left: 0px; top: 0px; position: absolute; opacity: 0.10; border-radius: 25px">
+            </div>
+
+            <div
+              style="left: 60px; top: 267.67px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 400; line-height: 28.80px; word-wrap: break-word">
+              Buy/Sale/Rent/Lease </div>
+            <div
+              style="left: 345px; top: 267.67px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 400; line-height: 28.80px; word-wrap: break-word">
+              Knowledgable Agents to guide you</div>
+            <div
+              style="width: 193px; left: 60px; top: 318.98px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 400; line-height: 28.80px; word-wrap: break-word">
+              Finance options for buying property in india</div>
+            <div
+              style="width: 216px; left: 60px; top: 401.98px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 400; line-height: 28.80px; word-wrap: break-word">
+              Regular visits to the property <br />supported with photographs.</div>
+            <div
+              style="width: 361px; left: 345px; top: 318.98px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 400; line-height: 28.80px; word-wrap: break-word">
+              Encumbrance certificate from the sub-registrar’s office based on survey number</div>
+            <div
+              style="width: 349px; left: 345px; top: 401.98px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 400; line-height: 28.80px; word-wrap: break-word">
+              Land surveys, fencing, security & maintenance for plots & Open lands</div>
           </div>
-          <div
-            style="width: 706px; height: 87px; padding-top: 17px; padding-bottom: 19px; padding-right: 100px; left: 0px; top: 136.98px; position: absolute; justify-content: flex-start; align-items: center; display: inline-flex">
-            <div style="color: black; font-size: 14px;  font-weight: 400; line-height: 25.20px; word-wrap: break-word">
-              We are a group of professionals, to take care of your property and real estate in India.<br />We offer
-              Property Management Services for NRI’s and resident Indians for their property in India.</div>
-          </div>
-          <div
-            style="width: 108.91px; height: 30.80px; left: 0px; top: 0px; position: absolute; opacity: 0.10; border-radius: 25px">
+          <div style="width: 24px; height: 24px; left: 26px; top: 270.98px; position: absolute">
+            <!-- <img src="./assets/img/buy.svg"> -->
           </div>
 
-          <div
-            style="left: 60px; top: 267.67px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 400; line-height: 28.80px; word-wrap: break-word">
-            Buy/Sale/Rent/Lease </div>
-          <div
-            style="left: 345px; top: 267.67px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 400; line-height: 28.80px; word-wrap: break-word">
-            Knowledgable Agents to guide you</div>
-          <div
-            style="width: 193px; left: 60px; top: 318.98px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 400; line-height: 28.80px; word-wrap: break-word">
-            Finance options for buying property in india</div>
-          <div
-            style="width: 216px; left: 60px; top: 401.98px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 400; line-height: 28.80px; word-wrap: break-word">
-            Regular visits to the property <br />supported with photographs.</div>
-          <div
-            style="width: 361px; left: 345px; top: 318.98px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 400; line-height: 28.80px; word-wrap: break-word">
-            Encumbrance certificate from the sub-registrar’s office based on survey number</div>
-          <div
-            style="width: 349px; left: 345px; top: 401.98px; position: absolute; color: #007E7D; font-size: 16px;  font-weight: 400; line-height: 28.80px; word-wrap: break-word">
-            Land surveys, fencing, security & maintenance for plots & Open lands</div>
-        </div>
-        <div style="width: 24px; height: 24px; left: 26px; top: 270.98px; position: absolute">
-          <!-- <img src="./assets/img/buy.svg"> -->
-        </div>
 
+          <div style="width: 24px; height: 24px; left: 52%; top: 344.98%; position: absolute">
+            <!-- <img src="./assets/img/account_balance.png" /> -->
+          </div>
 
-        <div style="width: 24px; height: 24px; left: 52%; top: 344.98%; position: absolute">
-          <!-- <img src="./assets/img/account_balance.png" /> -->
+          <div style="width: 24px; height: 24px; left: 52%; top: 354.98%; position: absolute">
+            <!-- <img src="./assets/img/regular.svg"> -->
+
+          </div>
+          <div style="width: 24px; height: 24px; left: 71%; top: 335.45%; position: absolute">
+            <!-- <img src="./assets/img/konow;edge.svg"> -->
+
+          </div>
+          <div style="width: 24px; height: 24px; left: 71%; top: 344.98%; position: absolute">
+            <!-- <img src="./assets/img/embulance.svg"> -->
+
+          </div>
         </div>
-
-        <div style="width: 24px; height: 24px; left: 52%; top: 354.98%; position: absolute">
-          <!-- <img src="./assets/img/regular.svg"> -->
+        <div style="width: 24px; height: 24px; left: 71%; top: 354.98%; position: absolute">
+          <!-- <img src="./assets/img/land.svg"> -->
 
         </div>
-        <div style="width: 24px; height: 24px; left: 71%; top: 335.45%; position: absolute">
-          <!-- <img src="./assets/img/konow;edge.svg"> -->
-
-        </div>
-        <div style="width: 24px; height: 24px; left: 71%; top: 344.98%; position: absolute">
-          <!-- <img src="./assets/img/embulance.svg"> -->
-
-        </div>
-      </div>
-      <div style="width: 24px; height: 24px; left: 71%; top: 354.98%; position: absolute">
-        <!-- <img src="./assets/img/land.svg"> -->
-
       </div>
     </div>
   </div>
 
 
 
-  <div style="width: 80%; margin-left: 13%; height: 100%;" data-aos="fade-up" data-aos-delay="100">
+  <div style="width: 80%; margin-top: 20px; margin-left: 13%; height: 100%;" data-aos="fade-up" data-aos-delay="100">
     <div
       style="color: black; font-size: 44px; font-family: Poppins; font-weight: 700; line-height: 57.20px; word-wrap: break-word; text-align: center;">
       Our Projects</div>
@@ -701,68 +782,77 @@
 
 
   <div data-aos="fade-right" data-aos-delay="100"
-    style="width: 80%; margin-left: 10%; height: 100%; padding-top: 115px; padding-bottom: 65px; padding-left: 360px; padding-right: 360px; background-image: url('./assets/img/div.ltn__testimonial-area.png'); justify-content: center; align-items: center; display: inline-flex">
+    style="width: 80%; margin-left: 10%; height: 100%; padding-top: 100px; padding-left: 360px; padding-right: 160px; background-image: url('./assets/img/div.ltn__testimonial-area.png'); justify-content: center; align-items: center; display: inline-flex">
     <div
-      style="width: 1200px; height: 531.73px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+      style="width: 1200px; margin-right: 200px; height: 531.73px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
       <div
-        style="width: 143.64px; height: 20.80px; color: white; font-size: 16px; font-family: Nunito Sans; font-weight: 600; line-height: 20.80px; word-wrap: break-word">
+        style="width: 143.64px; margin-left: -115.64px; height: 20.80px; color: white; font-size: 16px; font-family: Nunito Sans; font-weight: 600; line-height: 20.80px; word-wrap: break-word">
         Client,s Testimonial</div>
       <div
-        style="width: 487.51px; height: 118.19px; color: white; font-size: 44px; font-family: Poppins; font-weight: 700; line-height: 57.20px; word-wrap: break-word">
+        style="width: 487.51px; margin-left: -115.64px; height: 118.19px; color: white; font-size: 44px; font-family: Poppins; font-weight: 700; line-height: 57.20px; word-wrap: break-word">
         See What,s Our Client<br />Says About Us</div>
       <div>
-        <!-- <div style="width: 14.36px; height: 16px; text-align: center; color: white; font-size: 16px; font-family: Font Awesome 5 Free; font-weight: 900; line-height: 16px; word-wrap: break-word"></div> -->
       </div>
-      <div>
-        <!-- <div style="width: 14.36px; height: 16px; text-align: center; color: black; font-size: 16px; font-family: Font Awesome 5 Free; font-weight: 900; line-height: 16px; word-wrap: break-word"></div> -->
-      </div>
+      <!-- <div>
+      </div> -->
       <div
-        style="width: 1200px; padding-bottom: 50px; padding-left: 15px; padding-right: 15px; justify-content: center; align-items: flex-start; gap: 30px; display: inline-flex">
+        style="width: 820px; padding-bottom: 50px; padding-left: 15px; padding-right: 15px; justify-content: center; align-items: flex-start; gap: 30px; display: inline-flex">
         <div
-          style="width: 570px; height: 281.56px; position: relative; background: white; box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10); border-radius: 10px; border: 1px #F1F8FF solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-          <img
-            style="width: 60px; height: 60px; margin-top: 5%; position: relative; margin-left: 5%; border-radius: 60px"
-            src="./assets/img/2.jpg.png" />
+          style=" width:300px; height: 281.56px; position: relative; background: white; box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10); border-radius: 10px; border: 1px #F1F8FF solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
           <div
-            style="width: 131.10px; margin-left: 5%; height: 25px; color: #071C1F; font-size: 18px; font-family: Poppins; font-weight: 600; line-height: 23.40px; word-wrap: break-word; display: inline-flex;">
+            style="width: 131.10px; margin-left: 5%; margin-top: 10px; height: 25px; color: #071C1F; font-size: 18px; font-family: Poppins; font-weight: 600; line-height: 23.40px; word-wrap: break-word; display: inline-flex;">
             C&nbsp;Satish&nbsp;Reddy
-            <span style="margin-left: 200%;" class="fa fa-star checked"></span>
+            <span style="margin-left: 10%;" class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
           </div>
-          <!-- <div
-            style="width: 67.80px; height: 13px; color: #FFB800; font-size: 12px; font-family: Font Awesome 5 Free; font-weight: 900; line-height: 12px; word-wrap: break-word">
-          </div> -->
-
           <div
-            style="width: 496px; margin-left: 5%; height: 121.17px; color: #5C727D; font-size: 18px; font-family: Nunito Sans; font-weight: 400; line-height: 32.40px; word-wrap: break-word">
+            style="width: 296px; margin-left: 5%; height: 121.17px; color: #5C727D; font-size: 18px; font-family: Nunito Sans; font-weight: 400; line-height: 32.40px; word-wrap: break-word">
             We are especially impressed with the care and attention that Gate <br /> Property Management gave us
             in helping to find our new home.
           </div>
         </div>
         <div
-          style="width: 570px; height: 281.56px; position: relative; background: white; box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10); border-radius: 10px; border: 1px #F1F8FF solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-          <img
-            style="width: 60px; margin-left:5%; margin-top: 5%; height: 60px; position: relative; border-radius: 60px"
-            src="./assets/img/1.jpg.png" />
+          style="width: 300px; height: 290.56px; position: relative; background: white; box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10); border-radius: 10px; border: 1px #F1F8FF solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
           <div
-            style="width: 150.32px;  margin-left: 5%; height: 25px; color: #071C1F; font-size: 18px; font-family: Poppins; font-weight: 600; line-height: 23.40px; word-wrap: break-word; display: inline-flex">
+            style="width: 150.32px; margin-top: 10px; margin-left: 5%; height: 25px; color: #071C1F; font-size: 18px; font-family: Poppins; font-weight: 600; line-height: 23.40px; word-wrap: break-word; display: inline-flex">
             Prem&nbsp;kumar&nbsp;Kakani
-            <span style="margin-left: 150%;" class="fa fa-star checked"></span>
+            <span style="margin-left: 1%;" class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
           </div>
-
-
           <div
-            style="width: 496px; margin-left: 5%; height: 121.17px; color: #5C727D; font-size: 18px; font-family: Nunito Sans; font-weight: 400; line-height: 32.40px; word-wrap: break-word">
-            After years of pestering my relatives to look after<br />my properties in Hyderabad, I finally availed
-            iGate's PMS; and now i am reassured that my assets are looked after well and at reasonable cost. I could
-            finally trust someone to do the right thing without paying through my nose for it.
+            style="width: 300px; margin-left: 5%; height: 121.17px; color: #5C727D; font-size: 18px; font-family: Nunito Sans; font-weight: 400; line-height: 32.40px; word-wrap: break-word">
+            After years of pestering my relatives to <br />look after my properties in Hyderabad, <br />I finally
+            availed
+            iGate's PMS; and now <br />i am reassured that my assets are <br />looked after well and at reasonable
+            <br />cost. I could
+            finally trust someone to<br /> do the right thing without paying <br />through my nose for it.
+          </div>
+        </div>
+        <div
+          style="width: 500px; height: 281.56px; position: relative; background: white; box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10); border-radius: 10px; border: 1px #F1F8FF solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+          <div
+            style="width: 150.32px; margin-top: 10px; margin-left: 5%; height: 25px; color: #071C1F; font-size: 18px; font-family: Poppins; font-weight: 600; line-height: 23.40px; word-wrap: break-word; display: inline-flex">
+            PVL&nbsp;Narsimha&nbsp;Raju
+            <span style="margin-left: 50%;" class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <div
+            style="width: 396px; margin-left: 5%; height: 121.17px; color: #5C727D; font-size: 18px; font-family: Nunito Sans; font-weight: 400; line-height: 32.40px; word-wrap: break-word">
+            iGate now manages my properties in india and i am very happy with their services. My apartments and
+            agricultural lands are ably serviced by them. I get <br />prompt service request are acted upon
+            immediately.
+            <br />I
+            have even sold my existing apartment and also bought a new one to my full satisfaction. I would recommend
+            iGate to all NRI's in the USA.
           </div>
         </div>
       </div>
@@ -782,7 +872,7 @@
 
             <div class="col-lg-6 ">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1903.4757580737837!2d78.34316033847651!3d17.41411425514614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb947951fb2eff%3A0x42f26e10348dd6d9!2sVajra&#39;s%20Jasmine%20County!5e0!3m2!1sen!2sin!4v1700743893467!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3050.6860139977566!2d-83.17892642453201!3d40.127000273223324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838eb42c633c8d3%3A0x50b7c54744d843!2s7953%20Tullymore%20Dr%2C%20Dublin%2C%20OH%2043016%2C%20USA!5e0!3m2!1sen!2sin!4v1703515566341!5m2!1sen!2sin"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
               <!-- <iframe class="mb-4 mb-lg-0"
@@ -810,26 +900,47 @@
                 </div>
                 <div class="row">
                   <div class="col form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Location" required>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Current Location"
+                      required>
                   </div>
                   <div class="col form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Phone Number"
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Mobile Number"
                       required>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="State" required>
+                    <input type="text" name="name" class="form-control" id="name"
+                      placeholder="Location Of Your Property" required>
                   </div>
                   <div class="col form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="City" required>
+                    <div class="select-container"></div>
+                    <select class="select form-control" required>
+                      <option value="" disabled selected>Select Property Type</option>
+                      <option value="option1">Standalone Apartment</option>
+                      <option value="option2">Apartment in a gated community</option>
+                      <option value="option3">Independent house / Villa</option>
+                      <option value="option3">Empty plot</option>
+                      <option value="option3">Farm House</option>
+                      <option value="option3">Agricultural land</option>
+                      <option value="option3">Independent house / Villa</option>
+                    </select>
                   </div>
                 </div>
-
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="8" placeholder="Property Type"
-                    required></textarea>
+                <!-- <div> -->
+                <label>Select Services:</label>
+                <div class="checkbox-group">
+                  <label for="rentLease"><input type="checkbox" id="rentLease" name="services" value="rentLease">
+                    Rent/Lease</label><br />
+                  <label for="buySell"><input type="checkbox" id="buySell" name="services" value="buySell">
+                    Buy/Sell</label><br />
+                  <label for="maintenanceUtilities"><input type="checkbox" id="maintenanceUtilities" name="services"
+                      value="maintenanceUtilities"> Maintenance/Utilities</label><br />
+                  <label for="interiorsHandyman"><input type="checkbox" id="interiorsHandyman" name="services"
+                      value="interiorsHandyman"> Interiors/Handyman Services</label><br />
                 </div>
+                <!-- </div> -->
+
                 <div class="my-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
@@ -878,11 +989,11 @@
                   <img src="assets/img/1 (1).jpg" class="img-fluid" alt=""><br /><br />
                   <!-- <h3>Apaar Software<span>.</span></h3> -->
                   <p>
-                    USA: 7953 Tulymore Drive, Dublin, <br>
-                    0H40316.<br><br />
+                    India: Gachibowli, Hyderabad, Nanakaramguda, Telangana <br>
+                    500032.<br><br />
                     <b>Contact Srikanth Marpadga</b>
                     <br />
-                    <strong>Phone:</strong> +1 614-551-0396<br>
+                    <strong>Phone:</strong>7780722700<br>
                     <strong>Email:</strong> info@igatepropertymanagement.com<br>
                   </p>
                 </div>
@@ -974,35 +1085,34 @@
   </div>
 
 
-  <div class="container py-4">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7"> Copyright @ 2023 <strong><span>IGate</span></strong>. All Rights Reserved</div>
-        <div class="col-lg-2 text-center" style="font-family: poppins;">Terms & Conditions</div>
-        <div class="col-lg-1 text-right" style="font-family: poppins;">Claim</div>
-        <div class="col-lg-2 text-right" style="font-family: poppins;">Privacy & Policy</div>
-      </div>
-
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7"> Copyright @ 2023 <strong><span>IGate</span></strong>. All Rights Reserved</div>
+      <div class="col-lg-2 text-center" style="font-family: poppins;">Terms & Conditions</div>
+      <div class="col-lg-1 text-right" style="font-family: poppins;">Claim</div>
+      <div class="col-lg-2 text-right" style="font-family: poppins;">Privacy & Policy</div>
     </div>
 
+  </div>
 
-    <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
