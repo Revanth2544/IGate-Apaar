@@ -1133,6 +1133,26 @@ h6 {
 
 }
 
+.select-container {
+  position: relative;
+  /* display: inline-block; */
+}
+
+.dropdown-symbol {
+  position: absolute;
+  top: 49%;
+  right: 50px;
+  /* Adjust this value to position the symbol as needed */
+  transform: translateY(-50%);
+  pointer-events: none;
+  /* Ensure the symbol doesn't interfere with dropdown interaction */
+}
+
+/* @media only screen and (max-width: 768px) {
+  .dropdown-symbol {
+      right: 5px;
+  }
+} */
 
 
 
