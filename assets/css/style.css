@@ -10,6 +10,12 @@
 # General
 --------------------------------------------------------------*/
 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -143,6 +149,9 @@ h6 {
   transition: 0.3s;
   transition: 0.3s;
 }
+
+
+
 
 /* #topbar .contact-info i a:hover {
   color: #0c0404;
@@ -466,7 +475,7 @@ h6 {
 }
 
 .navbar {
-  padding-left: 38%;
+  padding-left: 40%;
   /* font-family: Nunito Sans; */
   /* display: flex; */
   /* align-items: center; */
@@ -536,7 +545,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  /* color: #106eea; */
+  color: #106eea;
 }
 
 .navbar .dropdown ul {
@@ -896,9 +905,6 @@ h6 {
 
 }
 
-#heroCarousel {
-  /* opacity: 0.90; */
-}
 
 #heroCarousel img {
   width: 100%;
@@ -1286,6 +1292,7 @@ section {
 
 .section-bg {
   background-color: #f6f9fe;
+  margin-top: 80px;
 }
 
 .section-title {
@@ -2572,6 +2579,850 @@ section {
     float: none;
     text-align: center;
     padding: 2px 0;
+  }
+}
+
+#introduce {
+  width: 333%;
+  left: 60px;
+  top: 66.98px;
+  position: absolute;
+  color: black;
+  font-size: 44px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 57.20px;
+  word-wrap: break-word
+}
+
+#whyUsPara {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.20px;
+  word-wrap: break-word
+}
+
+#buy {
+  left: 60px;
+  top: 267.67px;
+  position: absolute;
+  color: #007E7D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.80px;
+  word-wrap: break-word
+}
+
+#Knowledgable {
+  left: 345px;
+  width: 146%;
+  top: 267.67px;
+  position: absolute;
+  color: #007E7D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.80px;
+  word-wrap: break-word
+}
+
+#finance {
+  width: 193px;
+  left: 60px;
+  top: 318.98px;
+  position: absolute;
+  color: #007E7D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.80px;
+  word-wrap: break-word
+}
+
+#regular {
+  width: 216px;
+  left: 60px;
+  top: 401.98px;
+  position: absolute;
+  color: #007E7D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.80px;
+  word-wrap: break-word
+}
+
+#encumbrance {
+  width: 361px;
+  left: 345px;
+  top: 318.98px;
+  position: absolute;
+  color: #007E7D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.80px;
+  word-wrap: break-word
+}
+
+#land {
+  width: 349px;
+  left: 345px;
+  top: 401.98px;
+  position: absolute;
+  color: #007E7D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.80px;
+  word-wrap: break-word
+}
+
+#ourProjects {
+  width: 100px;
+  margin-left: 50%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex
+}
+
+#projects {
+  width: 100%;
+  height: 10%;
+  padding-top: 115px;
+  padding-bottom: 65px;
+  padding-left: 360px;
+  padding-right: 360px;
+  background: url('../img/div.ltn__upcoming-project-area\ \(1\).png');
+  justify-content: center;
+  align-items: center;
+  display: inline-flex"
+
+}
+
+#projectsDownDiv {
+  width: 700px;
+  height: 661.06px;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex"
+
+}
+
+#upcomingProjects {
+  width: 137.14px;
+  height: 20.80px;
+  color: white;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  line-height: 20.80px;
+  word-wrap: break-word;
+}
+
+#dreamPara {
+  width: 517.03px;
+  height: 118.18px;
+  color: white;
+  font-size: 44px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 57.20px;
+  word-wrap: break-word
+}
+
+#aboutProjects {
+  flex: 1 1 0;
+  height: 538.89px;
+  padding: 30px;
+  background: white;
+  box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  display: inline-flex
+}
+
+#projectsImg {
+  width: 500.25px;
+  height: 478.89px;
+  position: relative;
+  src: url('../img/3.jpg.png');
+  z-index: 1;
+}
+
+#aboutProjectss {
+  width: 468.75px;
+  height: 478.89px;
+  position: relative;
+  background: #F2F6F7;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex
+}
+
+#aboutProjectsHeading {
+  width: 108.42px;
+  height: 21px;
+  color: #007E7D;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  line-height: 20.80px;
+  word-wrap: break-word
+}
+
+#donwloadBrochure {
+  width: 157.41px;
+  height: 23px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word
+}
+
+#upcomingprojectsHeading {
+  width: 350.02px;
+  height: 48px;
+  color: #071C1F;
+  font-size: 36px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 46.80px;
+  word-wrap: break-word
+}
+
+#clientTestimonial {
+  /* width: 143.64px; */
+  /* margin-left: -115.64px; */
+  height: 20.80px;
+  color: white;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  line-height: 20.80px;
+  word-wrap: break-word
+}
+
+#testimonial {
+  width: 80%;
+  margin-left: 10%;
+  height: 100%;
+  padding-top: 100px;
+  padding-left: 360px;
+  padding-right: 160px;
+  background: url('../img/div.ltn__testimonial-area.png');
+  justify-content: center;
+  align-items: center;
+  display: inline-flex
+}
+
+#Testimonial1 {
+  /* width: 1200px;
+  margin-right: 200px;
+  height: 531.73px;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex */
+}
+
+#clientTestimonialHeading {
+  /* width: 487.51px; */
+  /* margin-left: -115.64px; */
+  height: 118.19px;
+  color: white;
+  font-size: 44px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 57.20px;
+  word-wrap: break-word
+}
+
+#secondReview {
+  width: 408px;
+  height: 290.56px;
+  position: relative;
+  background: white;
+  box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
+  border-radius: 10px;
+  border: 1px #F1F8FF solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex"
+
+}
+
+#secondReviewPara {
+  width: 395px;
+  margin-left: 5%;
+  height: 121.17px;
+  color: #5C727D;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 32.40px;
+  word-wrap: break-word
+}
+
+#reviews {
+  width: 1320px;
+  padding-bottom: 50px;
+  /* padding-left: -5px; */
+  padding-right: 15px;
+  gap: 30px;
+  display: inline-flex;
+}
+
+#firstReview {
+  width: 300px;
+  height: 281.56px;
+  position: relative;
+  background: white;
+  box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
+  border-radius: 10px;
+  border: 1px #F1F8FF solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex
+}
+
+#firstReviewText {
+  width: 131.10px;
+  margin-left: 5%;
+  margin-top: 10px;
+  height: 25px;
+  color: #071C1F;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 23.40px;
+  word-wrap: break-word;
+  display: inline-flex;
+}
+
+#thirdReview {
+  width: 385px;
+  height: 291.56px;
+  position: relative;
+  background: white;
+  box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
+  border-radius: 10px;
+  border: 1px #F1F8FF solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex
+}
+
+#thirdReviewName {
+  width: 150.32px;
+  margin-top: 10px;
+  margin-left: 5%;
+  height: 25px;
+  color: #071C1F;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 23.40px;
+  word-wrap: break-word;
+  display: inline-flex
+}
+
+#thirdReviewPara {
+  width: 360px;
+  margin-left: 5%;
+  height: 121.17px;
+  color: #5C727D;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 32.40px;
+  word-wrap: break-word
+}
+
+#thirdReviewRating {
+  margin-left: 60%;
+  font-size: small;
+  margin-top: 2%;
+}
+
+#dreamHouse {
+  width: 100%;
+  height: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #007E7D;
+  justify-content: center;
+  align-items: center;
+  gap: 300.12px;
+  display: inline-flex
+}
+
+
+#carouselContainer {
+  height: 500px;
+  /* Set a fixed height for the container */
+  overflow: hidden;
+  /* Hide overflow to prevent jumping */
+}
+
+.carousel-inner img {
+  width: 100%;
+  /* Ensure images fill their container */
+  height: 100%;
+  /* Ensure images fill their container */
+  object-fit: cover;
+  /* Maintain aspect ratio and cover the container */
+}
+
+
+@media (min-width: 200px) and (max-width: 480px) {
+  #topbar {
+    background: #1D3B78;
+    height: 50px;
+    font-size: 12px;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0;
+  }
+
+  #logo {
+    font-size: 12px;
+    height: 40px;
+    display: flex;
+  }
+
+  #logoText {
+    font-size: 20px;
+    height: 40px;
+    display: flex;
+
+  }
+
+  #hero .carousel-inner .active,
+  #hero .carousel-inner .carousel-item-next.carousel-item-start,
+  #hero .carousel-inner .carousel-item-prev.carousel-item-end {
+    opacity: 4;
+    transition: 0.5s;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  #carousel {
+    display: none;
+  }
+
+  #whyUs {
+    margin-left: 60%;
+  }
+
+  div#introduce {
+    font-size: 20px;
+    font-weight: 300px;
+  }
+
+  #whyUsFull {
+    font-size: 101px;
+  }
+
+  #para {
+    font-size: 21px;
+  }
+
+  #whyUsPara {
+    width: 45%;
+    font-size: 15px;
+  }
+
+  #buy {
+    font-size: 13.9px;
+    line-height: 15.8px;
+  }
+
+  #Knowledgable {
+    font-size: 13.9px;
+    margin-left: -137px;
+    width: 76%;
+    line-height: 15.8px;
+  }
+
+  #encumbrance {
+    font-size: 13.9px;
+    margin-left: -137px;
+    width: 91%;
+    margin-top: 10px;
+    line-height: 15.8px;
+
+  }
+
+  #finance {
+    font-size: 13.9px;
+    margin-top: 10px;
+    line-height: 15.8px;
+    width: 87%;
+  }
+
+  #regular {
+    font-size: 13.9px;
+    margin-right: 12px;
+    line-height: 15.8px;
+    width: 56%;
+    margin-top: 10px;
+  }
+
+  #land {
+    font-size: 13.9px;
+    margin-left: -137px;
+    margin-top: 10px;
+    line-height: 15.8px;
+    width: 75%;
+  }
+
+  #projects {
+    width: 10%;
+    height: 10%;
+    padding-top: 27px;
+    padding-bottom: 65px;
+    padding-left: 36px;
+    padding-right: 339px;
+    background: url('../img/div.ltn__upcoming-project-area\ \(1\).png');
+  }
+
+  #upcomingProjects {
+    width: 316.14px;
+    height: 20.8px;
+    color: white;
+    font-size: 16px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+  }
+
+  #dreamPara {
+    width: 415.03px;
+    height: 118.18px;
+    color: white;
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 32.2px;
+    word-wrap: break-word;
+    margin-top: 10px;
+  }
+
+  #aboutProjects {
+    flex: 1 1 0;
+    height: 274.89px;
+    padding: 2px;
+    background: white;
+    box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
+    justify-content: center;
+    align-items: stretch;
+    gap: 15px;
+    display: inline-flex;
+    margin-right: 39px;
+    margin-top: -4px;
+
+  }
+
+  #projectsImg {
+    display: none;
+  }
+
+  #aboutProjectss {
+    width: 257%;
+    height: 270.89px;
+    position: relative;
+    background: #F2F6F7;
+    display: flex;
+    font-size: 12px;
+    align-content: stretch;
+    align-items: center;
+
+  }
+
+  #aboutProjectsHeading {
+    width: 102.42px;
+    height: 21px;
+    color: #007E7D;
+    font-size: 16px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word
+  }
+
+  #ourProjects {
+    width: 90px;
+    margin-left: 18%;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+  }
+
+  #donwloadBrochure {
+    width: 158.41px;
+    height: 23px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
+  }
+
+  #upcomingprojectsHeading {
+    width: 364.02px;
+    height: 48px;
+    color: #071C1F;
+    font-size: 26px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 46.80px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+  }
+
+  #clientTestimonial {
+    width: 135.64px;
+    /* margin-left: -115.64px; */
+    height: 20.80px;
+    color: white;
+    font-size: 16px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word;
+    margin-top: -86px;
+    margin-left: 16px;
+
+  }
+
+  #testimonial {
+    width: 80%;
+    margin-left: 0%;
+    height: 130%;
+    padding-top: 100px;
+    padding-left: 214px;
+    padding-right: 160px;
+    /* background: url(../img/div.ltn__testimonial-area.png); */
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    background: border-box;
+    background-color: #c9c9c9;
+  }
+
+  #Testimonial1 {
+    /* width: 200px;
+    margin-right: 200px;
+    height: 531.73px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex */
+  }
+
+  #clientTestimonialHeading {
+    font-size: 25px;
+    line-height: 35.2px;
+    width: 277px;
+    margin-left: 16px;
+
+  }
+
+  #secondReview {
+    width: 319px;
+    height: 290.56px;
+    position: relative;
+    background: white;
+    box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
+    border-radius: 10px;
+    border: 1px #F1F8FF solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex"
+
+  }
+
+  #reviews {
+    width: 370px;
+    padding-bottom: 50px;
+    /* padding-left: 15px; */
+    padding-right: 15px;
+    gap: 30px;
+    display: inline-flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  #reviews {
+    display: flex;
+    /* overflow: hidden; */
+    transition: transform 0.5s ease-in-out;
+  }
+
+  #firstReview {
+    width: 319px;
+    height: 165.56px;
+    position: relative;
+    background: white;
+    box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
+    border-radius: 10px;
+    border: 1px #F1F8FF solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex
+  }
+
+  #firstReview {
+    min-width: 10%;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  #firstReviewText {
+    width: 131.10px;
+    margin-left: 5%;
+    margin-top: 10px;
+    height: 25px;
+    color: #071C1F;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 23.40px;
+    word-wrap: break-word;
+    display: inline-flex;
+  }
+
+  .firstReviewText {
+    width: 300px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
+    border-radius: 10px;
+    border: 1px #F1F8FF solid;
+  }
+
+  #thirdReview {
+    width: 321px;
+    height: 355.56px;
+    position: relative;
+    background: white;
+    box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
+    border-radius: 10px;
+    border: 1px #F1F8FF solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex
+  }
+
+  #thirdReviewName {
+    width: 93.32px;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 25px;
+    color: #071C1F;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 23.40px;
+    word-wrap: break-word;
+    display: inline-flex
+  }
+
+  #thirdReviewPara {
+    width: 303px;
+    margin-left: 5%;
+    height: 121.17px;
+    color: #5C727D;
+    font-size: 18px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: 32.40px;
+    word-wrap: break-word
+  }
+
+  #thirdReviewRating {
+    margin-left: 60%;
+    font-size: 80px;
+    margin-top: 2%;
+  }
+
+  #arrowSymbol {
+    margin-top: 310px;
+  }
+
+  #footer {
+    display: inline-flex;
+  }
+
+  #footer .footer-links {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  #footer .footer-links ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .back-to-top {
+    bottom: 24px;
+  }
+
+  #dreamHouse {
+    width: 100%;
+    height: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #007E7D;
+    justify-content: center;
+    align-items: center;
+    gap: 300.12px;
+    display: inline-flex
+  }
+
+  #dreamHouse {
+    display: none;
+  }
+
+  #secondReviewPara {
+    width: 303px;
+    margin-left: 5%;
+    height: 121.17px;
+    color: #5C727D;
+    font-size: 18px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: 32.40px;
+    word-wrap: break-word
   }
 }
 
