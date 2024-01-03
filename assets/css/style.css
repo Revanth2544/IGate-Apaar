@@ -400,7 +400,8 @@ h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  height: 86px;
+  /* width: 94.8em; */
+  height: 60px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -475,7 +476,7 @@ h6 {
 }
 
 .navbar {
-  padding-left: 40%;
+  padding-left: 39%;
   /* font-family: Nunito Sans; */
   /* display: flex; */
   /* align-items: center; */
@@ -989,7 +990,7 @@ h6 {
 #hero .carousel-inner .carousel-item,
 #hero .carousel-inner .active.carousel-item-start,
 #hero .carousel-inner .active.carousel-item-end {
-  opacity: 0;
+  opacity: 5;
 }
 
 #hero .carousel-inner .active,
@@ -2987,6 +2988,15 @@ section {
   /* Maintain aspect ratio and cover the container */
 }
 
+#valueAddedServicesImage {
+  padding: -10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  display: flex;
+  /* height: -80px; */
+}
+
 
 @media (min-width: 200px) and (max-width: 480px) {
   #topbar {
@@ -2996,6 +3006,17 @@ section {
     transition: all 0.5s;
     color: #fff;
     padding: 0;
+  }
+
+  #projectsDownDiv {
+    width: 339px;
+    height: 661.06px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex"
+
   }
 
   #logo {
@@ -3091,12 +3112,12 @@ section {
   }
 
   #projects {
-    width: 10%;
-    height: 10%;
+    /* width: 10%; */
+    /* height: 10%; */
     padding-top: 27px;
     padding-bottom: 65px;
     padding-left: 38px;
-    padding-right: 339px;
+    padding-right: 334px;
     background: url('../img/div.ltn__upcoming-project-area\ \(1\).png');
   }
 
@@ -3114,7 +3135,7 @@ section {
   }
 
   #dreamPara {
-    width: 415.03px;
+    width: 331.03px;
     height: 118.18px;
     color: white;
     font-size: 28px;
@@ -3135,7 +3156,7 @@ section {
     align-items: stretch;
     gap: 15px;
     display: inline-flex;
-    margin-right: 39px;
+    margin-right: -90px;
     margin-top: -4px;
 
   }
@@ -3253,11 +3274,11 @@ section {
     line-height: 35.2px;
     width: 277px;
     margin-left: 16px;
-
+    height: 80px;
   }
 
   #secondReview {
-    width: 319px;
+    width: 304px;
     height: 290.56px;
     position: relative;
     background: white;
@@ -3272,7 +3293,7 @@ section {
   }
 
   #reviews {
-    width: 370px;
+    width: 318px;
     padding-bottom: 50px;
     /* padding-left: 15px; */
     padding-right: 15px;
@@ -3283,14 +3304,8 @@ section {
     flex-direction: column;
   }
 
-  #reviews {
-    display: flex;
-    /* overflow: hidden; */
-    transition: transform 0.5s ease-in-out;
-  }
-
   #firstReview {
-    width: 319px;
+    width: 304px;
     height: 165.56px;
     position: relative;
     background: white;
@@ -3332,7 +3347,7 @@ section {
   }
 
   #thirdReview {
-    width: 321px;
+    width: 304px;
     height: 355.56px;
     position: relative;
     background: white;
@@ -3360,7 +3375,7 @@ section {
   }
 
   #thirdReviewPara {
-    width: 303px;
+    width: 284px;
     margin-left: 5%;
     height: 121.17px;
     color: #5C727D;
@@ -3418,7 +3433,7 @@ section {
   }
 
   #secondReviewPara {
-    width: 303px;
+    width: 284px;
     margin-left: 5%;
     height: 121.17px;
     color: #5C727D;
@@ -3427,6 +3442,10 @@ section {
     font-weight: 400;
     line-height: 32.40px;
     word-wrap: break-word
+  }
+
+  #valueAddedServicesImage {
+    display: none
   }
 }
 
