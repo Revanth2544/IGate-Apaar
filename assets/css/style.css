@@ -7511,6 +7511,37 @@ section {
   flex-wrap: wrap-reverse;
 }
 
+#clientTestimonialHeading {
+  /* width: 487.51px; */
+  margin-left: -92.64px;
+  height: 118.19px;
+  color: white;
+  font-size: 44px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 57.20px;
+  word-wrap: break-word;
+}
+
+#clientTestimonial {
+  /* width: 143.64px; */
+  margin-left: -89.64px;
+  height: 20.8px;
+  color: white;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  line-height: 20.80px;
+  word-wrap: break-word;
+}
+#reviews {
+  width: 1264px;
+  padding-bottom: 50px;
+  padding-right: 15px;
+  gap: 30px;
+  display: inline-flex;
+  margin-left: -93px;
+}
 .img-fluid {
   /* max-width: 60%; */
   /* height: auto; */
