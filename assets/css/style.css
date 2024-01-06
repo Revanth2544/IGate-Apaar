@@ -6702,8 +6702,9 @@ section {
   }
 
   #footerFirstColumn {
-    width: 21%;
+    width: 30%;
     font-size: 49%;
+    margin-left: -6%;
   }
 
   #footer .footer-top h4 {
@@ -6716,19 +6717,24 @@ section {
   }
 
   #footerLast {
-    font-size: 16px
+    font-size: 16px;
+    margin-left: 55px;
   }
 
   #footer {
     background: #fff;
-    padding: 40px 0 31px 0;
+    padding: 0px 0 31px 0;
     color: #444444;
     font-size: 27px;
     background: #f6f9fe;
-    margin-left: 104px;
-    /* width: 442px; */
-    /* margin-top: 2%; */
+    margin-left: 64px;
+    width: 1182px;
+
   }
+  .section-bg {
+    background-color: #f6f9fe;
+    margin-top: 119px;
+}
 
   #dropdwonOfProperty {
     width: 10px;
