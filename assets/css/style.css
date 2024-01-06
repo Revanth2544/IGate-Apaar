@@ -7063,11 +7063,11 @@ section {
   }
 
   #carousel {
-    display: none;
+    /* display: none; */
   }
 
   #whyUs {
-    margin-left: 199%;
+    margin-left: -176%;
     width: 131.22px;
     margin-top: 20%;
     height: 22px;
@@ -7084,7 +7084,7 @@ section {
   div#introduce {
     font-size: 30px;
     font-weight: 300px;
-    margin-left: 189px;
+    margin-left: -315px;
   }
 
   #whyUsFull {
@@ -7099,24 +7099,25 @@ section {
   #whyUsPara {
     width: 100%;
     font-size: 14px;
+    margin-left: -458px;
   }
 
   #buy {
     font-size: 16.9px;
     line-height: 15.8px;
-    margin-left: 48px;
+    margin-left: -317px;
   }
 
   #Knowledgable {
     font-size: 16.9px;
-    margin-left: 108px;
+    margin-left: -269px;
     width: 229%;
     line-height: 18.8px;
   }
 
   #encumbrance {
     font-size: 16.9px;
-    margin-left: 108px;
+    margin-left: -269px;
     width: 258%;
     margin-top: 9px;
     line-height: 24.8px;
@@ -7127,7 +7128,7 @@ section {
     margin-top: 10px;
     line-height: 25.8px;
     width: 189%;
-    margin-left: 48px;
+    margin-left: -317px;
   }
 
   #regular {
@@ -7136,12 +7137,12 @@ section {
     line-height: 26.8px;
     width: 170%;
     margin-top: 10px;
-    margin-left: 43px;
+    margin-left: -317px;
   }
 
   #land {
     font-size: 16.9px;
-    margin-left: 108px;
+    margin-left: -269px;
     margin-top: 10px;
     line-height: 25.8px;
     width: 255%;
