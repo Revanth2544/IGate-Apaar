@@ -6668,8 +6668,8 @@ section {
 @media (min-width: 1281.60px) and (max-width: 1400px) {
 
   #contactForm {
-    margin-left: 10px;
-    width: 100%;
+    margin-left: 79px;
+    width: 49%;
   }
   .navbar {
     padding-left: 29%;
@@ -6677,37 +6677,37 @@ section {
 }
 
   #map {
-    margin-left: 154px;
+    margin-left: -70px;
   }
 
   #yourName ::placeholder {
     font-size: medium;
   }
 
-  #yourName {
+  /* #yourName {
     font-size: 170%;
   }
 
   .checkbox-group input[type="checkbox"] {
     width: 24px;
     height: 24px;
-  }
+  } */
 
-  #selectServices {
+  /* #selectServices {
     font-size: 170%;
-  }
+  } */
 
   #checkBox {
     font-size: 10%;
   }
 
   #footerFirstColumn {
-    width: 237%;
-    font-size: 105%;
+    width: 21%;
+    font-size: 49%;
   }
 
   #footer .footer-top h4 {
-    font-size: 26px;
+    font-size: 18px;
     font-weight: bold;
     color: #444444;
     position: relative;
@@ -6716,7 +6716,7 @@ section {
   }
 
   #footerLast {
-    font-size: 28px
+    font-size: 16px
   }
 
   #footer {
@@ -6725,6 +6725,9 @@ section {
     color: #444444;
     font-size: 27px;
     background: #f6f9fe;
+    margin-left: 104px;
+    /* width: 442px; */
+    /* margin-top: 2%; */
   }
 
   #dropdwonOfProperty {
@@ -6735,10 +6738,10 @@ section {
   #secondReviewText {
     width: 150.32px;
     margin-top: 10px;
-    margin-left: 5%;
+    margin-left: 1%;
     height: 25px;
     color: #071C1F;
-    font-size: 28px;
+    font-size: 16px;
     font-family: Poppins;
     font-weight: 600;
     line-height: 23.40px;
@@ -6747,11 +6750,11 @@ section {
   }
 
   #satishReddyPara {
-    width: 449px;
-    margin-left: 5%;
+    width: 249px;
+    margin-left: 1%;
     height: 121.17px;
     color: #5C727D;
-    font-size: 28px;
+    font-size: 16px;
     font-family: Nunito Sans;
     font-weight: 400;
     line-height: 32.40px;
@@ -6759,7 +6762,7 @@ section {
   }
 
   #servicesKeyPointsUnderDiv {
-    width: 182%;
+    width: 100%;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 15px;
@@ -6767,9 +6770,9 @@ section {
   }
 
   #keyPoints5 {
-    width: 323.45px;
+    /* width: 323.45px; */
     color: #5C727D;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 28.80px;
     word-wrap: break-word"
@@ -6777,7 +6780,7 @@ section {
   }
 
   #servicesKeyPoints2 {
-    margin-left: 5%;
+    margin-left: 1%;
   }
 
   #ourProjectsPara {
@@ -6790,9 +6793,9 @@ section {
   }
 
   #keyPoints4 {
-    width: 472.45px;
+    /* width: 327.45px; */
     color: #5C727D;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 28.80px;
     word-wrap: break-word
@@ -6801,7 +6804,7 @@ section {
   #keyPoints3 {
     /* width: 295.45px; */
     color: #5C727D;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 28.80px;
     word-wrap: break-word
@@ -6810,7 +6813,7 @@ section {
   #keyPoints2 {
     color: #5C727D;
     width: 94%;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 28.80px;
     word-wrap: break-word"
@@ -6821,7 +6824,7 @@ section {
     width: 211.22px;
     height: 28.80px;
     color: #5C727D;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 28.80px;
     word-wrap: break-word
@@ -6831,7 +6834,7 @@ section {
     width: 311.22px;
     height: 28.8px;
     color: #5C727D;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 28.80px;
     word-wrap: break-word;
@@ -6863,7 +6866,6 @@ section {
   #interiorDiv {
     margin-left: 25%;
     margin-top: 2.5%;
-    /* width: 100%; */
   }
 
   #buyEntireDIv {
@@ -6879,7 +6881,6 @@ section {
     margin-left: 0%;
     margin-top: 1%;
     width: 511px;
-
   }
 
   #interiorEntireDiv {
@@ -6891,29 +6892,29 @@ section {
   }
 
   #buyHeading {
-    font-size: 27px;
+    font-size: 21px;
   }
 
   #rentHeading {
-    font-size: 27px;
+    font-size: 21px;
   }
 
   #maintenanceHeading {
-    font-size: 27px;
+    font-size: 21px;
   }
 
   #interiorHeading {
-    font-size: 27px;
+    font-size: 21px;
   }
 
   #buyPara {
-    font-size: 17px;
+    font-size: 16px;
     width: 107%;
   }
 
   #rentDescription {
     width: 333px;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   #maintenanceDescription {
@@ -6923,12 +6924,12 @@ section {
     flex-direction: row;
     align-items: baseline;
     justify-content: space-evenly;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   #interiorDescription {
     width: 460px;
-    font-size: 17px;
+    font-size: 16px;
   }
 
 
@@ -6992,7 +6993,7 @@ section {
   }
 
   .section-title h2 {
-    font-size: 38px;
+    font-size: 29px;
     letter-spacing: 1px;
     font-weight: 700;
     padding: 10px 29px;
@@ -7007,7 +7008,7 @@ section {
   #servicesPara {
     color: #5C727D;
     text-align: center;
-    font-size: 23px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 28.8px;
@@ -7017,7 +7018,7 @@ section {
   #topbar {
     background: #1D3B78;
     height: 50px;
-    font-size: 19px;
+    font-size: 15px;
     transition: all 0.5s;
     color: #fff;
     padding: 0;
@@ -7100,8 +7101,6 @@ section {
     font-size: 14px;
   }
 
-
-
   #buy {
     font-size: 16.9px;
     line-height: 15.8px;
@@ -7121,8 +7120,6 @@ section {
     width: 258%;
     margin-top: 9px;
     line-height: 24.8px;
-
-
   }
 
   #finance {
@@ -7153,7 +7150,7 @@ section {
   #projects {
     padding-top: 27px;
     padding-bottom: 65px;
-    padding-left: 455px;
+    padding-left: 523px;
     padding-right: 334px;
     background: url('../img/div.ltn__upcoming-project-area\ \(1\).png');
   }
@@ -7172,15 +7169,16 @@ section {
   }
 
   #dreamPara {
-    width: 331.03px;
+    width: 540.03px;
     height: 118.18px;
     color: white;
     font-size: 28px;
     font-family: Poppins;
     font-weight: 700;
     line-height: 32.2px;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
     margin-top: 10px;
+    margin-left: -100px;
   }
 
   #aboutProjects {
@@ -7278,11 +7276,10 @@ section {
     justify-content: center;
     align-items: center;
     margin-left: 75px;
-
   }
 
   .navbar {
-    padding-left: 21%;
+    padding-left: 26%;
   }
 
   .navbar a,
@@ -7306,12 +7303,12 @@ section {
     padding-top: 100px;
     padding-left: 216px;
     padding-right: 160px;
-    /* background: url(../img/div.ltn__testimonial-area.png); */
+    background: url("../img/div.ltn__testimonial-area.png");
     justify-content: center;
     align-items: center;
     display: inline-flex;
-    background: border-box;
-    background-color: #c9c9c9;
+    /* background: border-box; */
+    /* background-color: #c9c9c9; */
   }
 
   #Testimonial1 {
@@ -7335,7 +7332,7 @@ section {
 
   #secondReview {
     width: 506px;
-    height: 305.56px;
+    height: 227.56px;
     position: relative;
     background: white;
     box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
@@ -7355,14 +7352,14 @@ section {
     padding-right: 15px;
     gap: 30px;
     display: inline-flex;
-    align-items: baseline;
+    /* align-items: baseline;
     flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: column; */
   }
 
   #firstReview {
     width: 506px;
-    height: 165.56px;
+    height: 227.56px;
     position: relative;
     background: white;
     box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
@@ -7381,11 +7378,11 @@ section {
 
   #firstReviewText {
     width: 131.10px;
-    margin-left: 5%;
+    margin-left: 1%;
     margin-top: 10px;
     height: 25px;
     color: #071C1F;
-    font-size: 28px;
+    font-size: 16px;
     font-family: Poppins;
     font-weight: 600;
     line-height: 23.40px;
@@ -7403,8 +7400,8 @@ section {
   }
 
   #thirdReview {
-    width: 500px;
-    height: 355.56px;
+    width: 445px;
+    height: 227.56px;
     position: relative;
     background: white;
     box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
@@ -7419,10 +7416,10 @@ section {
   #thirdReviewName {
     width: 93.32px;
     margin-top: 10px;
-    margin-left: 5%;
+    margin-left: 1%;
     height: 25px;
     color: #071C1F;
-    font-size: 28px;
+    font-size: 16px;
     font-family: Poppins;
     font-weight: 600;
     line-height: 23.40px;
@@ -7431,11 +7428,11 @@ section {
   }
 
   #thirdReviewPara {
-    width: 475px;
-    margin-left: 5%;
+    width: 438px;
+    margin-left: 1%;
     height: 121.17px;
     color: #5C727D;
-    font-size: 28px;
+    font-size: 16px;
     font-family: Nunito Sans;
     font-weight: 400;
     line-height: 32.40px;
@@ -7457,8 +7454,10 @@ section {
   }
 
   #footer .footer-links {
-    width: 33%;
+    width: 23%;
     margin-bottom: 20px;
+    margin-left: 24px;
+    font-size: 17px;
   }
 
   #footer .footer-links ul {
@@ -7490,10 +7489,10 @@ section {
 
   #secondReviewPara {
     width: 449px;
-    margin-left: 5%;
+    margin-left: 1%;
     height: 121.17px;
     color: #5C727D;
-    font-size: 28px;
+    font-size: 16px;
     font-family: Nunito Sans;
     font-weight: 400;
     line-height: 32.40px;
@@ -7501,7 +7500,9 @@ section {
   }
 
   #valueAddedServicesImage {
-    display: none
+    /* display: none */
+    /* margin-left: 10%; */
+    width: 10%;
   }
 }
 
@@ -7512,7 +7513,7 @@ section {
 }
 
 #clientTestimonialHeading {
-  /* width: 487.51px; */
+  width: 487.51px;
   margin-left: -92.64px;
   height: 118.19px;
   color: white;
@@ -7525,7 +7526,7 @@ section {
 
 #clientTestimonial {
   /* width: 143.64px; */
-  margin-left: -89.64px;
+  margin-left: -165.64px;
   height: 20.8px;
   color: white;
   font-size: 16px;
