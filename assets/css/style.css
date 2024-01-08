@@ -3467,7 +3467,7 @@ section {
 
   #secondReview {
     width: 304px;
-    height: 290.56px;
+    height: 350.56px;
     position: relative;
     background: white;
     box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
@@ -3536,7 +3536,7 @@ section {
 
   #thirdReview {
     width: 304px;
-    height: 355.56px;
+    height: 400.56px;
     position: relative;
     background: white;
     box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
@@ -3548,6 +3548,17 @@ section {
     display: flex
   }
 
+  #rentImage {
+    margin-left: 40px;
+}
+
+#maintenanceImage {
+  margin-left: 40px;
+}
+
+#interiorImage {
+  margin-left: 40px;
+}
   #thirdReviewName {
     width: 93.32px;
     margin-top: 10px;
