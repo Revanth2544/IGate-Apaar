@@ -2600,9 +2600,70 @@ section {
   color: black;
   font-size: 14px;
   font-weight: 400;
-  line-height: 25.20px;
+  line-height: 21.20px;
   word-wrap: break-word
 }
+
+/* #bulletPoints {
+  width: 10px;
+  height: 9px;
+  border-radius: 60%;
+  margin-top: 2%;
+  background: #007E7D;
+  margin-left: 45px;
+  margin-top: 272px;
+
+}
+#bulletPoints1 {
+  width: 10px;
+  height: 9px;
+  border-radius: 60%;
+  margin-top: 2%;
+  background: #007E7D;
+  margin-left: 45px;
+  margin-top: 15px;
+
+}
+#bulletPoints2 {
+  width: 10px;
+  height: 9px;
+  border-radius: 60%;
+  margin-top: 2%;
+  background: #007E7D;
+  margin-left: 45px;
+  margin-top: 16px;
+
+}
+#bulletPoints3 {
+  width: 10px;
+  height: 9px;
+  border-radius: 60%;
+  margin-top: 2%;
+  background: #007E7D;
+  margin-left: 45px;
+  margin-top: 34px;
+
+}
+#bulletPoints4 {
+  width: 10px;
+  height: 9px;
+  border-radius: 60%;
+  margin-top: 2%;
+  background: #007E7D;
+  margin-left: 45px;
+  margin-top: 15px;
+
+}
+#bulletPoints5 {
+  width: 10px;
+  height: 9px;
+  border-radius: 60%;
+  margin-top: 2%;
+  background: #007E7D;
+  margin-left: 45px;
+  margin-top: 29px;
+
+} */
 
 #buy {
   left: 60px;
@@ -3196,6 +3257,68 @@ section {
     padding: 0;
   }
 
+
+  #bulletPoints {
+    width: 10px;
+    height: 9px;
+    border-radius: 60%;
+    margin-top: 2%;
+    background: #007E7D;
+    margin-left: 45px;
+    margin-top: 272px;
+  
+  }
+  #bulletPoints1 {
+    width: 10px;
+    height: 9px;
+    border-radius: 60%;
+    margin-top: 2%;
+    background: #007E7D;
+    margin-left: 45px;
+    margin-top: 15px;
+  
+  }
+  #bulletPoints2 {
+    width: 10px;
+    height: 9px;
+    border-radius: 60%;
+    margin-top: 2%;
+    background: #007E7D;
+    margin-left: 45px;
+    margin-top: 16px;
+  
+  }
+  #bulletPoints3 {
+    width: 10px;
+    height: 9px;
+    border-radius: 60%;
+    margin-top: 2%;
+    background: #007E7D;
+    margin-left: 45px;
+    margin-top: 34px;
+  
+  }
+  #bulletPoints4 {
+    width: 10px;
+    height: 9px;
+    border-radius: 60%;
+    margin-top: 2%;
+    background: #007E7D;
+    margin-left: 45px;
+    margin-top: 15px;
+  
+  }
+  #bulletPoints5 {
+    width: 10px;
+    height: 9px;
+    border-radius: 60%;
+    margin-top: 2%;
+    background: #007E7D;
+    margin-left: 45px;
+    margin-top: 29px;
+  
+  }
+
   #projectsDownDiv {
     width: 339px;
     height: 661.06px;
@@ -3262,41 +3385,41 @@ section {
 
   #Knowledgable {
     font-size: 13.9px;
-    margin-left: -137px;
-    width: 76%;
-    line-height: 15.8px;
+    margin-left: -285px;
+    /* width: 76%; */
+    line-height: 64.8px;
   }
 
   #encumbrance {
     font-size: 13.9px;
-    margin-left: -137px;
-    width: 91%;
-    margin-top: 10px;
-    line-height: 15.8px;
+    margin-left: -285px;
+    width: 165%;
+    margin-top: -2px;
+    line-height: 14.8px;
 
   }
 
   #finance {
     font-size: 13.9px;
     margin-top: 10px;
-    line-height: 15.8px;
-    width: 70%;
+    line-height: 77.8px;
+    width: 200%;
   }
 
   #regular {
     font-size: 13.9px;
     margin-right: 12px;
     line-height: 15.8px;
-    width: 56%;
-    margin-top: 10px;
+    width: 159%;
+    margin-top: -17px;
   }
 
   #land {
     font-size: 13.9px;
-    margin-left: -137px;
-    margin-top: 10px;
+    margin-left: -285px;
+    margin-top: 20px;
     line-height: 15.8px;
-    width: 75%;
+    width: 148%;
   }
 
   #projects {
@@ -3445,6 +3568,7 @@ section {
     background: border-box;
     background-color: #c9c9c9;
   }
+
   #whyUsEntireDiv {
     width: 0%;
     height: 100%;
@@ -3453,7 +3577,7 @@ section {
     gap: 60px;
     display: inline-flex;
     margin-left: -11px;
-}
+  }
 
   #Testimonial1 {
     /* width: 200px;
@@ -3559,30 +3683,32 @@ section {
 
   #rentImage {
     margin-left: 40px;
-}
+  }
 
-#buyImage {
-  margin-left: 40px;
-}
+  #buyImage {
+    margin-left: 40px;
+  }
 
-#satishReddyPara {
-  width: 265px;
-  margin-left: 5%;
-  height: 121.17px;
-  color: #5C727D;
-  font-size: 18px;
-  font-family: Nunito Sans;
-  font-weight: 400;
-  line-height: 32.40px;
-  word-wrap: break-word;
-}
-#maintenanceImage {
-  margin-left: 40px;
-}
+  #satishReddyPara {
+    width: 265px;
+    margin-left: 5%;
+    height: 121.17px;
+    color: #5C727D;
+    font-size: 18px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: 32.40px;
+    word-wrap: break-word;
+  }
 
-#interiorImage {
-  margin-left: 40px;
-}
+  #maintenanceImage {
+    margin-left: 40px;
+  }
+
+  #interiorImage {
+    margin-left: 40px;
+  }
+
   #thirdReviewName {
     width: 93.32px;
     margin-top: 10px;
@@ -6705,7 +6831,7 @@ section {
     display: flex;
     flex-wrap: wrap-reverse;
   }
-  
+
   #clientTestimonialHeading {
     width: 487.51px;
     margin-left: -92.64px;
@@ -6717,7 +6843,7 @@ section {
     line-height: 57.20px;
     word-wrap: break-word;
   }
-  
+
   #clientTestimonial {
     /* width: 143.64px; */
     margin-left: -165.64px;
@@ -6729,6 +6855,7 @@ section {
     line-height: 20.80px;
     word-wrap: break-word;
   }
+
   #reviews {
     width: 1264px;
     padding-bottom: 50px;
@@ -6742,10 +6869,11 @@ section {
     margin-left: 79px;
     width: 49%;
   }
+
   .navbar {
     padding-left: 29%;
 
-}
+  }
 
   #map {
     margin-left: -70px;
@@ -6802,10 +6930,11 @@ section {
     width: 1182px;
 
   }
+
   .section-bg {
     background-color: #f6f9fe;
     margin-top: 119px;
-}
+  }
 
   #dropdwonOfProperty {
     width: 10px;
@@ -6931,6 +7060,7 @@ section {
     margin-left: 1%;
     margin-top: 2%;
   }
+
   #whyUsEntireDiv {
     width: 100%;
     height: 100%;
@@ -6939,7 +7069,8 @@ section {
     gap: 60px;
     display: inline-flex;
     margin-left: 283px;
-}
+  }
+
   #interiorDiv {
     margin-left: 25%;
     margin-top: 2.5%;
