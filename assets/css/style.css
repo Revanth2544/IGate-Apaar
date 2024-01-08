@@ -3433,7 +3433,7 @@ section {
 
   #testimonial {
     width: 80%;
-    margin-left: 0%;
+    margin-left: 0.10%;
     height: 130%;
     padding-top: 100px;
     padding-left: 216px;
@@ -3552,6 +3552,21 @@ section {
     margin-left: 40px;
 }
 
+#buyImage {
+  margin-left: 40px;
+}
+
+#satishReddyPara {
+  width: 265px;
+  margin-left: 5%;
+  height: 121.17px;
+  color: #5C727D;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 32.40px;
+  word-wrap: break-word;
+}
 #maintenanceImage {
   margin-left: 40px;
 }
