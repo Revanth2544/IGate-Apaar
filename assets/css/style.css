@@ -6666,6 +6666,42 @@ section {
 }
 
 @media (min-width: 1281.60px) and (max-width: 1400px) {
+  .image-box {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  
+  #clientTestimonialHeading {
+    width: 487.51px;
+    margin-left: -92.64px;
+    height: 118.19px;
+    color: white;
+    font-size: 44px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 57.20px;
+    word-wrap: break-word;
+  }
+  
+  #clientTestimonial {
+    /* width: 143.64px; */
+    margin-left: -165.64px;
+    height: 20.8px;
+    color: white;
+    font-size: 16px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word;
+  }
+  #reviews {
+    width: 1264px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    gap: 30px;
+    display: inline-flex;
+    margin-left: -93px;
+  }
 
   #contactForm {
     margin-left: 79px;
@@ -7282,7 +7318,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 75px;
+    margin-left: -110px;
   }
 
   .navbar {
@@ -7308,8 +7344,8 @@ section {
     margin-left: 0%;
     height: 130%;
     padding-top: 100px;
-    padding-left: 216px;
-    padding-right: 160px;
+    padding-left: 0px;
+    padding-right: 365px;
     background: url("../img/div.ltn__testimonial-area.png");
     justify-content: center;
     align-items: center;
@@ -7333,7 +7369,7 @@ section {
     font-size: 30px;
     line-height: 35.2px;
     width: 337px;
-    margin-left: 53px;
+    margin-left: -87px;
     height: 80px;
   }
 
@@ -7353,7 +7389,7 @@ section {
   }
 
   #reviews {
-    width: 526px;
+    width: 729px;
     padding-bottom: 50px;
     /* padding-left: 15px; */
     padding-right: 15px;
@@ -7378,10 +7414,10 @@ section {
     display: flex
   }
 
-  #firstReview {
+  /* #firstReview {
     min-width: 10%;
     transition: transform 0.5s ease-in-out;
-  }
+  } */
 
   #firstReviewText {
     width: 131.10px;
@@ -7514,42 +7550,7 @@ section {
 }
 
 
-.image-box {
-  display: flex;
-  flex-wrap: wrap-reverse;
-}
 
-#clientTestimonialHeading {
-  width: 487.51px;
-  margin-left: -92.64px;
-  height: 118.19px;
-  color: white;
-  font-size: 44px;
-  font-family: Poppins;
-  font-weight: 700;
-  line-height: 57.20px;
-  word-wrap: break-word;
-}
-
-#clientTestimonial {
-  /* width: 143.64px; */
-  margin-left: -165.64px;
-  height: 20.8px;
-  color: white;
-  font-size: 16px;
-  font-family: Nunito Sans;
-  font-weight: 600;
-  line-height: 20.80px;
-  word-wrap: break-word;
-}
-#reviews {
-  width: 1264px;
-  padding-bottom: 50px;
-  padding-right: 15px;
-  gap: 30px;
-  display: inline-flex;
-  margin-left: -93px;
-}
 .img-fluid {
   /* max-width: 60%; */
   /* height: auto; */
