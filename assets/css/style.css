@@ -1304,6 +1304,124 @@ section {
   font-size: 44px;
 }
 
+#whyUsPara1 {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.20px;
+  word-wrap: break-word;
+}
+
+#whyUsPara2 {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.20px;
+  word-wrap: break-word;
+}
+
+#whyUsPara3 {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.20px;
+  word-wrap: break-word;
+}
+
+#whyUsPara4 {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.20px;
+  word-wrap: break-word;
+}
+
+#whyUsPara5 {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.20px;
+  word-wrap: break-word;
+}
+
+#para {
+  width: 706px;
+  height: 87px;
+  padding-top: 17px;
+  padding-bottom: 19px;
+  padding-right: 100px;
+  left: 60px;
+  top: 136.98px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex
+}
+
+#para1 {
+  width: 706px;
+  height: 248px;
+  padding-top: 17px;
+  padding-bottom: 19px;
+  padding-right: 100px;
+  left: 60px;
+  top: 136.98px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex
+}
+
+#para2 {
+  width: 706px;
+  height: 407px;
+  padding-top: 17px;
+  padding-bottom: 19px;
+  padding-right: 100px;
+  left: 60px;
+  top: 136.98px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex
+}
+
+#para3 {
+  width: 706px;
+  height: 527px;
+  padding-top: 17px;
+  padding-bottom: 19px;
+  padding-right: 100px;
+  left: 60px;
+  top: 136.98px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex
+}
+
+#para4 {
+  width: 706px;
+  height: 658px;
+  padding-top: 17px;
+  padding-bottom: 19px;
+  padding-right: 100px;
+  left: 60px;
+  top: 136.98px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex
+}
+
+#ourProjectsEntireDiv {
+  width: 80%;
+  margin-top: 150px;
+  margin-left: 11%;
+  height: 100%;
+
+}
+
 .services-title h2 span {
   font-size: 13px;
   letter-spacing: 1px;
@@ -2275,6 +2393,52 @@ section {
   transition: 0.6s;
 }
 
+
+#whyUsBullets {
+  width: 13px;
+  height: 11px;
+  border-radius: 60%;
+  margin-top: 86%;
+  background: #007E7D;
+  margin-left: 39px;
+}
+
+#whyUsBullets1 {
+  width: 13px;
+  height: 11px;
+  border-radius: 60%;
+  margin-top: 33%;
+  background: #007E7D;
+  margin-left: 39px;
+}
+
+#whyUsBullets2 {
+  width: 13px;
+  height: 11px;
+  border-radius: 60%;
+  margin-top: 44%;
+  background: #007E7D;
+  margin-left: 39px;
+}
+
+#whyUsBullets3 {
+  width: 13px;
+  height: 11px;
+  border-radius: 60%;
+  margin-top: 33%;
+  background: #007E7D;
+  margin-left: 39px;
+}
+
+#whyUsBullets4 {
+  width: 13px;
+  height: 11px;
+  border-radius: 60%;
+  margin-top: 30%;
+  background: #007E7D;
+  margin-left: 39px;
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -2573,7 +2737,7 @@ section {
   color: #444444;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
   #footer .copyright,
   #footer .credits {
@@ -2581,7 +2745,7 @@ section {
     text-align: center;
     padding: 2px 0;
   }
-}
+} */
 
 #introduce {
   width: 333%;
@@ -3248,6 +3412,104 @@ section {
 }
 
 @media (min-width: 200px) and (max-width: 480px) {
+
+
+  #carouselContainer {
+    height: 806px;
+    /* Set a fixed height for the container */
+    overflow: hidden;
+    /* Hide overflow to prevent jumping */
+  }
+  #introduce {
+    width: 170%;
+    left: 60px;
+    top: 66.98px;
+    position: absolute;
+    color: black;
+    font-size: 44px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 57.20px;
+    word-wrap: break-word;
+}
+  #para {
+    width: 309px;
+    height: 87px;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-right: 35px;
+    left: 60px;
+    top: 136.98px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex
+  }
+  
+  #para1 {
+    width: 309px;
+    height: 248px;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-right: 35px;
+    left: 60px;
+    top: 136.98px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex
+  }
+  
+  #para2 {
+    width: 309px;
+    height: 407px;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-right: 35px;
+    left: 60px;
+    top: 136.98px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex
+  }
+  
+  #para3 {
+    width: 309px;
+    height: 527px;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-right: 35px;
+    left: 60px;
+    top: 136.98px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex
+  }
+  
+  #para4 {
+    width: 323px;
+    height: 658px;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-right: 35px;
+    left: 60px;
+    top: 136.98px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex
+  }
+
+  
+  #ourProjectsEntireDiv {
+    width: 80%;
+    margin-top: 1px;
+    margin-left: 11%;
+    height: 100%;
+  }
+
   #topbar {
     background: #1D3B78;
     height: 50px;
@@ -3266,8 +3528,9 @@ section {
     background: #007E7D;
     margin-left: 45px;
     margin-top: 272px;
-  
+
   }
+
   #bulletPoints1 {
     width: 10px;
     height: 9px;
@@ -3276,8 +3539,9 @@ section {
     background: #007E7D;
     margin-left: 45px;
     margin-top: 15px;
-  
+
   }
+
   #bulletPoints2 {
     width: 10px;
     height: 9px;
@@ -3286,8 +3550,9 @@ section {
     background: #007E7D;
     margin-left: 45px;
     margin-top: 16px;
-  
+
   }
+
   #bulletPoints3 {
     width: 10px;
     height: 9px;
@@ -3296,8 +3561,9 @@ section {
     background: #007E7D;
     margin-left: 45px;
     margin-top: 34px;
-  
+
   }
+
   #bulletPoints4 {
     width: 10px;
     height: 9px;
@@ -3306,8 +3572,8 @@ section {
     background: #007E7D;
     margin-left: 45px;
     margin-top: 15px;
-  
   }
+
   #bulletPoints5 {
     width: 10px;
     height: 9px;
@@ -3316,7 +3582,86 @@ section {
     background: #007E7D;
     margin-left: 45px;
     margin-top: 29px;
-  
+  }
+
+
+  #whyUsBullets {
+    width: 13px;
+    height: 11px;
+    border-radius: 60%;
+    margin-top: 73%;
+    background: #007E7D;
+    margin-left: 26px;
+  }
+
+  #whyUsPara {
+    width: 52%;
+    font-size: 14px;
+    margin-left: -12px;
+  }
+
+  #whyUsBullets1 {
+    width: 13px;
+    height: 11px;
+    border-radius: 60%;
+    margin-top: 56%;
+    background: #007E7D;
+    margin-left: 26px;
+  }
+
+  #whyUsPara1 {
+    width: 106%;
+    font-size: 14px;
+    margin-left: -14px;
+    margin-top: 121px;
+  }
+
+  #whyUsBullets2 {
+    width: 13px;
+    height: 11px;
+    border-radius: 60%;
+    margin-top: 91%;
+    background: #007E7D;
+    margin-left: 26px;
+  }
+
+  #whyUsPara2 {
+    width: 106%;
+    font-size: 14px;
+    margin-left: -13px;
+    margin-top: 290px;
+  }
+
+  #whyUsBullets3 {
+    width: 13px;
+    height: 11px;
+    border-radius: 60%;
+    margin-top: 81%;
+    background: #007E7D;
+    margin-left: 26px;
+  }
+
+  #whyUsPara3 {
+    width: 106%;
+    font-size: 14px;
+    margin-left: -14px;
+    margin-top: 160%;
+  }
+
+  #whyUsBullets4 {
+    width: 13px;
+    height: 11px;
+    border-radius: 60%;
+    margin-top: 53%;
+    background: #007E7D;
+    margin-left: 26px;
+  }
+
+  #whyUsPara4 {
+    width: 106%;
+    font-size: 14px;
+    margin-left: -16px;
+    margin-top: 500px;
   }
 
   #projectsDownDiv {
@@ -3374,8 +3719,8 @@ section {
   }
 
   #whyUsPara {
-    width: 45%;
-    font-size: 15px;
+    width: 106%;
+    font-size: 14px;
   }
 
   #buy {
@@ -3600,7 +3945,7 @@ section {
 
   #secondReview {
     width: 304px;
-    height: 350.56px;
+    height: 220.56px;
     position: relative;
     background: white;
     box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
@@ -3627,7 +3972,7 @@ section {
 
   #firstReview {
     width: 304px;
-    height: 189.56px;
+    height: 141.56px;
     position: relative;
     background: white;
     box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
@@ -3669,7 +4014,7 @@ section {
 
   #thirdReview {
     width: 304px;
-    height: 400.56px;
+    height: 273.56px;
     position: relative;
     background: white;
     box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
@@ -3697,7 +4042,7 @@ section {
     font-size: 18px;
     font-family: Nunito Sans;
     font-weight: 400;
-    line-height: 32.40px;
+    line-height: 19.40px;
     word-wrap: break-word;
   }
 
@@ -3731,7 +4076,7 @@ section {
     font-size: 18px;
     font-family: Nunito Sans;
     font-weight: 400;
-    line-height: 32.40px;
+    line-height: 19.40px;
     word-wrap: break-word
   }
 
@@ -3789,7 +4134,7 @@ section {
     font-size: 18px;
     font-family: Nunito Sans;
     font-weight: 400;
-    line-height: 32.40px;
+    line-height: 19.40px;
     word-wrap: break-word
   }
 
@@ -6832,6 +7177,8 @@ section {
     flex-wrap: wrap-reverse;
   }
 
+
+
   #clientTestimonialHeading {
     width: 487.51px;
     margin-left: -92.64px;
@@ -7300,14 +7647,149 @@ section {
   }
 
   #para {
-    font-size: 26px;
-    margin-left: 143px;
+    width: 500px;
+    height: 248px;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-right: 100px;
+    left: 60px;
+    top: 136.98px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+  }
+  #para1 {
+    width: 500px;
+    height: 248px;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-right: 100px;
+    left: 60px;
+    top: 136.98px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+  }
+  #para2 {
+    width: 500px;
+    height: 248px;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-right: 100px;
+    left: 60px;
+    top: 136.98px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+  }
+  #para3 {
+    width: 500px;
+    height: 248px;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-right: 100px;
+    left: 60px;
+    top: 136.98px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+  }
+  #para4 {
+    width: 500px;
+    height: 248px;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-right: 100px;
+    left: 60px;
+    top: 136.98px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+  }
+
+  #whyUsBullets {
+    width: 13px;
+    height: 11px;
+    border-radius: 60%;
+    margin-top: 86%;
+    background: #007E7D;
+    margin-left: -256px;
   }
 
   #whyUsPara {
-    width: 100%;
+    width: 196%;
     font-size: 14px;
-    margin-left: -458px;
+    margin-left: -296px;
+    margin-top: -179px;
+  }
+
+  #whyUsBullets1 {
+    width: 13px;
+    height: 11px;
+    border-radius: 60%;
+    margin-top: 25%;
+    background: #007E7D;
+    margin-left: -256px;
+  }
+
+  #whyUsPara1 {
+    width: 196%;
+    font-size: 14px;
+    margin-left: -295px;
+    margin-top: -48px;
+  }
+
+  #whyUsBullets2 {
+    width: 13px;
+    height: 11px;
+    border-radius: 60%;
+    margin-top: 38%;
+    background: #007E7D;
+    margin-left: -256px;
+  }
+
+  #whyUsPara2 {
+    width: 196%;
+    font-size: 14px;
+    margin-left: -295px;
+    margin-top: 111px;
+  }
+
+  #whyUsBullets3 {
+    width: 13px;
+    height: 11px;
+    border-radius: 60%;
+    margin-top: 33%;
+    background: #007E7D;
+    margin-left: -256px;
+  }
+
+  #whyUsPara3 {
+    width: 196%;
+    font-size: 14px;
+    margin-left: -295px;
+    margin-top: 231px;
+  }
+
+  #whyUsBullets4 {
+    width: 13px;
+    height: 11px;
+    border-radius: 60%;
+    margin-top: 25%;
+    background: #007E7D;
+    margin-left: -256px;
+  }
+
+  #whyUsPara4 {
+    width: 196%;
+    font-size: 14px;
+    margin-left: -295px;
+    margin-top: 340px;
   }
 
   #buy {
@@ -7488,7 +7970,7 @@ section {
   }
 
   .navbar {
-    padding-left: 26%;
+    padding-left: 25%;
   }
 
   .navbar a,
@@ -7666,7 +8148,7 @@ section {
     width: 23%;
     margin-bottom: 20px;
     margin-left: 24px;
-    font-size: 17px;
+    font-size: 14px;
   }
 
   #footer .footer-links ul {
