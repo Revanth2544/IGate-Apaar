@@ -2946,6 +2946,8 @@ section {
   font-weight: 600;
   line-height: 20.80px;
   word-wrap: break-word;
+  margin-left: 20%;
+
 }
 
 #dreamPara {
@@ -2956,14 +2958,15 @@ section {
   font-family: Poppins;
   font-weight: 700;
   line-height: 57.20px;
-  word-wrap: break-word
+  word-wrap: break-word;
+  margin-left: 20%;
 }
 
 #aboutProjects {
   flex: 1 1 0;
   height: 538.89px;
-  padding: 30px;
-  background: white;
+  /* padding: 30px; */
+  /* background: white; */
   box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
   justify-content: center;
   align-items: flex-start;
@@ -7101,6 +7104,11 @@ section {
     justify-content: center;
     align-items: center;
     display: inline-flex
+  }
+
+  #ourProjectsPage{
+    width: 20%;
+    height: 10%;
   }
 
   #donwloadBrochure {
