@@ -3001,6 +3001,12 @@ section {
   position: relative;
   margin-left: 0%;
 }
+#projectsImg3 {
+  width: 313.25px;
+  height: 315.89px;
+  position: relative;
+  margin-left: 6%;
+}
 
 #aboutProjectss {
   width: 468.75px;
@@ -3438,7 +3444,7 @@ section {
 
   #projectsImg {
     width: 313.25px;
-    height: 217.89px;
+    height: 160.89px;
     position: relative;
     margin-left: 0%;
     margin-top: -56px;
@@ -3446,7 +3452,7 @@ section {
 
   #projectsImg1 {
     width: 313.25px;
-    height: 217.89px;
+    height: 160.89px;
     margin-left: 0%;
     margin-bottom: 20px;
     margin-top: 9px;
@@ -3456,11 +3462,22 @@ section {
 
   #projectsImg2 {
     width: 313.25px;
-    height: 217.89px;
+    height: 160.89px;
     /* position: relative; */
     margin-left: 0%;
     display: flex;
     flex-direction: column;
+  }
+
+  #projectsImg3 {
+    width: 313.25px;
+    height: 160.89px;
+    /* position: relative; */
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
+
   }
 
   #farmHouse {
@@ -4204,30 +4221,39 @@ section {
 
 @media (min-width: 481px) and (max-width: 575px) {
 
-
   #projectsImg {
-    width: 313.25px;
-    height: 204.89px;
+    width: 254.25px;
+    height: 217.89px;
     position: relative;
-    margin-left: 82%;
+    margin-left: 95%;
     margin-top: -56px;
   }
 
   #projectsImg1 {
-    width: 313.25px;
-    height: 204.89px;
-    margin-left: 9%;
+    width: 254.25px;
+    height: 217.89px;
+    margin-left: 131%;
     margin-bottom: 20px;
-    margin-top: 159px;
+    margin-top: -55px;
   }
 
   #projectsImg2 {
-    width: 313.25px;
-    height: 204.89px;
-    margin-left: -64%;
+    width: 254.25px;
+    height: 217.89px;
+    margin-left: -37%;
     display: flex;
     flex-direction: column;
-    margin-top: 375px;
+    margin-top: 187px;
+  }
+
+  #projectsImg3 {
+    width: 254.25px;
+    height: 217.89px;
+    margin-left: -1%;
+    margin-top: 188px;
+    display: flex;
+    flex-direction: column;
+  
   }
 
   #farmHouse {
@@ -4439,7 +4465,7 @@ section {
     /* height: 10%; */
     padding-top: 27px;
     padding-bottom: 65px;
-    padding-left: 89px;
+    padding-left: 0px;
     padding-right: 334px;
     background: url('../img/div.ltn__upcoming-project-area\ \(1\).png');
   }
@@ -4468,6 +4494,7 @@ section {
     line-height: 32.2px;
     word-wrap: break-word;
     margin-top: 0px;
+    margin-left: 159px;
   }
 
   #aboutProjects {
@@ -4769,18 +4796,18 @@ section {
 
 @media (min-width: 576px) and (max-width: 767px) {
 
-  #projectsImg {
+    #projectsImg {
     width: 313.25px;
     height: 217.89px;
     position: relative;
-    margin-left: 55%;
+    margin-left: 100%;
     margin-top: -56px;
   }
 
   #projectsImg1 {
     width: 313.25px;
     height: 217.89px;
-    margin-left: 86%;
+    margin-left: 137%;
     margin-bottom: 20px;
     margin-top: -55px;
   }
@@ -4788,10 +4815,20 @@ section {
   #projectsImg2 {
     width: 313.25px;
     height: 217.89px;
-    margin-left: -34%;
+    margin-left: -45%;
     display: flex;
     flex-direction: column;
     margin-top: 187px;
+  }
+
+  #projectsImg3 {
+    width: 313.25px;
+    height: 217.89px;
+    margin-left: -8%;
+    margin-top: 188px;
+    display: flex;
+    flex-direction: column;
+  
   }
 
   #farmHouse {
@@ -5005,7 +5042,7 @@ section {
     /* height: 10%; */
     padding-top: 27px;
     padding-bottom: 65px;
-    padding-left: 89px;
+    padding-left: 62px;
     padding-right: 334px;
     background: url('../img/div.ltn__upcoming-project-area\ \(1\).png');
   }
@@ -5021,6 +5058,7 @@ section {
     word-wrap: break-word;
     display: flex;
     justify-content: center;
+    margin-left: 42px;
   }
 
   #dreamPara {
@@ -5033,6 +5071,7 @@ section {
     line-height: 32.2px;
     word-wrap: break-word;
     margin-top: 10px;
+    margin-left: 134px;
   }
 
   #aboutProjects {
@@ -5338,26 +5377,36 @@ section {
     width: 313.25px;
     height: 217.89px;
     position: relative;
-    margin-left: 15%;
+    margin-left: 95%;
     margin-top: -56px;
   }
 
   #projectsImg1 {
     width: 313.25px;
     height: 217.89px;
-    margin-left: 59%;
+    margin-left: 130%;
     margin-bottom: 20px;
-    margin-top: -53px;
+    margin-top: -55px;
   }
 
   #projectsImg2 {
     width: 313.25px;
     height: 217.89px;
-    margin-left: -68%;
+    margin-left: -50%;
     display: flex;
     flex-direction: column;
     margin-top: 187px;
   }
+
+  #projectsImg3 {
+    width: 313.25px;
+    height: 217.89px;
+    margin-left: -13%;
+    margin-top: 188px;
+    display: flex;
+    flex-direction: column;
+  }
+  
 
   #farmHouse {
     width: 41.2%;
@@ -5585,7 +5634,7 @@ section {
     /* height: 10%; */
     padding-top: 27px;
     padding-bottom: 65px;
-    padding-left: 231px;
+    padding-left: 112px;
     padding-right: 334px;
     background: url('../img/div.ltn__upcoming-project-area\ \(1\).png');
   }
@@ -5594,14 +5643,14 @@ section {
     width: 316.14px;
     height: 20.8px;
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     font-family: Nunito Sans;
     font-weight: 600;
     line-height: 20.80px;
     word-wrap: break-word;
     display: flex;
     justify-content: center;
-    margin-left: -11px;
+    margin-left: 27px;
   }
 
   #dreamPara {
@@ -5614,7 +5663,7 @@ section {
     line-height: 32.2px;
     word-wrap: break-word;
     margin-top: 10px;
-    margin-left: -6px;
+    margin-left: 96px;
   }
 
   #aboutProjects {
@@ -5921,25 +5970,34 @@ section {
     width: 313.25px;
     height: 217.89px;
     position: relative;
-    margin-left: -21%;
+    margin-left: 51%;
     margin-top: -56px;
   }
 
   #projectsImg1 {
     width: 313.25px;
     height: 217.89px;
-    margin-left: 76%;
+    margin-left: 87%;
     margin-bottom: 20px;
-    margin-top: -53px;
+    margin-top: -55px;
   }
 
   #projectsImg2 {
     width: 313.25px;
     height: 217.89px;
-    margin-left: -83%;
+    margin-left: -94%;
     display: flex;
     flex-direction: column;
     margin-top: 187px;
+  }
+
+  #projectsImg3 {
+    width: 313.25px;
+    height: 217.89px;
+    margin-left: -58%;
+    margin-top: 188px;
+    display: flex;
+    flex-direction: column;
   }
 
   #farmHouse {
@@ -6194,7 +6252,7 @@ section {
     /* height: 10%; */
     padding-top: 27px;
     padding-bottom: 65px;
-    padding-left: 361px;
+    padding-left: 350px;
     padding-right: 334px;
     background: url('../img/div.ltn__upcoming-project-area\ \(1\).png');
   }
@@ -6547,22 +6605,30 @@ section {
     width: 313.25px;
     height: 217.89px;
     position: relative;
-    margin-left: -74%;
+    margin-left: 47%;
     margin-top: -56px;
   }
 
   #projectsImg1 {
     width: 313.25px;
     height: 217.89px;
-    margin-left: 38%;
+    margin-left: 97%;
     margin-bottom: 20px;
-    margin-top: -53px;
+    margin-top: -56px;
   }
 
   #projectsImg2 {
     width: 313.25px;
     height: 217.89px;
-    margin-left: -126%;
+    margin-left: -98%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 187px;
+  }
+  #projectsImg3 {
+    width: 313.25px;
+    height: 217.89px;
+    margin-left: -47%;
     display: flex;
     flex-direction: column;
     margin-top: 187px;
@@ -7263,7 +7329,7 @@ section {
   #projects {
     padding-top: 27px;
     padding-bottom: 65px;
-    padding-left: 523px;
+    padding-left: 356px;
     padding-right: 334px;
     background: url('../img/div.ltn__upcoming-project-area\ \(1\).png');
   }
@@ -7279,7 +7345,7 @@ section {
     word-wrap: break-word;
     display: flex;
     justify-content: center;
-    margin-left: -178px;
+    margin-left: -48px;
   }
 
   #dreamPara {
@@ -7292,7 +7358,7 @@ section {
     line-height: 32.2px;
     /* word-wrap: break-word; */
     margin-top: 10px;
-    margin-left: -225px;
+    margin-left: -8px;
   }
 
   #aboutProjects {
@@ -7626,7 +7692,7 @@ section {
     width: 313.25px;
     height: 217.89px;
     position: relative;
-    margin-left: -44%;
+    margin-left: 42%;
     margin-top: -56px;
   }
 
@@ -7641,7 +7707,15 @@ section {
   #projectsImg2 {
     width: 313.25px;
     height: 217.89px;
-    margin-left: -87%;
+    margin-left: -103%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 187px;
+  }
+  #projectsImg3 {
+    width: 313.25px;
+    height: 217.89px;
+    margin-left: -58%;
     display: flex;
     flex-direction: column;
     margin-top: 187px;
