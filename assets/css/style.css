@@ -2915,8 +2915,8 @@ section {
 #projects {
   width: 100%;
   height: 10%;
-  padding-top: 115px;
-  padding-bottom: 65px;
+  padding-top: 3px;
+  padding-bottom: 188px;
   padding-left: 360px;
   padding-right: 360px;
   background: url('../img/div.ltn__upcoming-project-area\ \(1\).png');
@@ -2946,7 +2946,7 @@ section {
   font-weight: 600;
   line-height: 20.80px;
   word-wrap: break-word;
-  margin-left: 20%;
+  margin-left: -7%;
 
 }
 
@@ -2958,23 +2958,23 @@ section {
 }
 
 #dreamPara {
-  width: 517.03px;
-  height: 118.18px;
+  width: 980.03px;
+  height: 52.18px;
   color: white;
   font-size: 44px;
   font-family: Poppins;
   font-weight: 700;
   line-height: 57.20px;
   word-wrap: break-word;
-  margin-left: 20%;
+  margin-left: -7%;
 }
 
 #aboutProjects {
   flex: 1 1 0;
-  height: 538.89px;
+  height: 335.89px;
   /* padding: 30px; */
   /* background: white; */
-  box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10);
+  /* box-shadow: 0px 5px 20px rgba(23, 44, 82, 0.10); */
   justify-content: center;
   align-items: flex-start;
   gap: 15px;
@@ -2985,7 +2985,14 @@ section {
   width: 313.25px;
   height: 315.89px;
   position: relative;
-  margin-left: -12%;
+  margin-left: 6%;
+}
+
+#residentialApartment {
+  width: 313.25px;
+  height: 315.89px;
+  position: relative;
+  margin-left: -79%;
 }
 
 #projectsImg1 {
@@ -3001,11 +3008,32 @@ section {
   position: relative;
   margin-left: 0%;
 }
+
 #projectsImg3 {
   width: 313.25px;
   height: 315.89px;
   position: relative;
   margin-left: 6%;
+}
+
+#projectsImg4 {
+  width: 313.25px;
+  height: 315.89px;
+  position: relative;
+  margin-left: 12%;
+}
+
+#farmHouseUpcoming {
+  width: 313.25px;
+  height: 315.89px;
+  position: relative;
+  margin-left: -77%;
+}
+#farmHouseUpcoming1 {
+  width: 313.25px;
+  height: 315.89px;
+  position: relative;
+  margin-left: -77%;
 }
 
 #aboutProjectss {
@@ -3017,6 +3045,37 @@ section {
   justify-content: flex-start;
   align-items: flex-start;
   display: flex
+}
+
+.celebrity {
+  margin-left: -6px;
+  margin-top: 8px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.celebrity1 {
+  margin-left: 47px;
+  margin-top: 8px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.celebrity2 {
+  margin-left: 81px;
+  margin-top: 8px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.residentialCss {
+  margin-left: -184px;
+  margin-top: 3px;
+  color: rgb(15, 15, 15);
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
 #aboutProjectsHeading {
@@ -4253,7 +4312,7 @@ section {
     margin-top: 188px;
     display: flex;
     flex-direction: column;
-  
+
   }
 
   #farmHouse {
@@ -4538,7 +4597,7 @@ section {
     justify-content: center;
   }
 
-  
+
   #donwloadBrochure {
     width: 158.41px;
     height: 23px;
@@ -4796,7 +4855,7 @@ section {
 
 @media (min-width: 576px) and (max-width: 767px) {
 
-    #projectsImg {
+  #projectsImg {
     width: 313.25px;
     height: 217.89px;
     position: relative;
@@ -4828,7 +4887,7 @@ section {
     margin-top: 188px;
     display: flex;
     flex-direction: column;
-  
+
   }
 
   #farmHouse {
@@ -4848,7 +4907,7 @@ section {
     align-items: center;
     display: inline-flex
   }
-  
+
   #contactForm {
     margin-left: 10px;
     width: 100%;
@@ -5406,7 +5465,7 @@ section {
     display: flex;
     flex-direction: column;
   }
-  
+
 
   #farmHouse {
     width: 41.2%;
@@ -6299,7 +6358,7 @@ section {
 
   }
 
-   #aboutProjectss {
+  #aboutProjectss {
     width: 257%;
     height: 270.89px;
     position: relative;
@@ -6600,7 +6659,7 @@ section {
 
 @media (min-width: 1022.40px) and (max-width: 1279px) {
 
-  
+
   #projectsImg {
     width: 313.25px;
     height: 217.89px;
@@ -6625,6 +6684,7 @@ section {
     flex-direction: column;
     margin-top: 187px;
   }
+
   #projectsImg3 {
     width: 313.25px;
     height: 217.89px;
@@ -7712,6 +7772,7 @@ section {
     flex-direction: column;
     margin-top: 187px;
   }
+
   #projectsImg3 {
     width: 313.25px;
     height: 217.89px;
